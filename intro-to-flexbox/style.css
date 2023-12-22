@@ -30,4 +30,10 @@ h3 {
 }
 
 .item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item {
+  margin: 10px;
 }
