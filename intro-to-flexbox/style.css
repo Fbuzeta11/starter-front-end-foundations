@@ -26,12 +26,24 @@ h3 {
 
 .group {
   display: flex;
-  flex-direction: row; /* or column */
+  flex-direction: column;
+  margin-bottom: 100px; /* or column */
 }
 
 .item {
   flex: 1;
   margin: 10px;
+}
+
+@media all and (min-width: 800px) {
+  section,
+  h1 {
+    paddng: 0 10%;
+  }
+
+  .group {
+    flex-direction: row;
+  }
 }
 
 .item-double {
