@@ -15,21 +15,24 @@
   <body>
     <main>
       <form>
-        <div>
-          <label for="name">Full Name:</label>
-          <input id="name" type="text" name="name" />
-        </div>
-        <div>
-          <label for="location">Zipcode:</label>
-          <input
-            id="location"
-            type="text"
-            name="zipcode"
-            autofocus="on"
-            maxlength="5"
-            required
-            />
-        </div>
+        <fieldset>
+          <legend>Shipping Information</legend>
+          <div>
+            <label for="name">Full Name:</label>
+            <input id="name" type="text" name="name" />
+          </div>
+          <div>
+            <label for="location">Zipcode:</label>
+            <input
+              id="location"
+              type="text"
+              name="zipcode"
+              autofocus="on"
+              maxlength="5"
+              required
+              />
+          </div>
+        </fieldset>
         <div>
           <label for="form-message">Your message:</label>
           <textarea
